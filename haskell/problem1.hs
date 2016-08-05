@@ -9,9 +9,6 @@
   First line contains that denotes the number of test cases. This is followed by
   lines, each containing an integer, .
 
-  Constraints
-
-
   Output Format
 
   For each test case, print an integer that denotes the sum of all the multiples
