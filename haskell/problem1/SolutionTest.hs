@@ -1,10 +1,8 @@
 import Solution   (sumMultiplesOf3And5)
-import Test.HUnit
+import Test.HUnit (Test(TestList), Counts, runTestTT, (~?=))
 
 main :: IO Counts
-main = runTestTT . TestList $ map TestCase
-    [ assertEqual "Should get correct result" 2318
-      $ sumMultiplesOf3And5 100
-    , assertEqual "Should get correct result" 233333333166666668
-      $ sumMultiplesOf3And5 1000000000
+main = runTestTT $ TestList
+    [ sumMultiplesOf3And5 100        ~?= 2318
+    , sumMultiplesOf3And5 1000000000 ~?= 233333333166666668
     ]
