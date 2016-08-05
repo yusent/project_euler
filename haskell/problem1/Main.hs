@@ -26,11 +26,10 @@
   2318
 -}
 
+module Main (main) where
+
 import Control.Monad (replicateM_)
+import Solution      (sumMultiplesOf3And5)
 
 main :: IO ()
 main = readLn >>= flip replicateM_ (readLn >>= print . sumMultiplesOf3And5)
-
-sumMultiplesOf3And5 :: Int -> Int
-sumMultiplesOf3And5 n = sumMultiplesOf 3 + sumMultiplesOf 5 - sumMultiplesOf 15
-  where sumMultiplesOf k = let x = (n-1) `div` k in k * x * (x+1) `div` 2
