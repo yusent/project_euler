@@ -6,18 +6,18 @@ These are solutions to the problems in "ProjectEuler+" contest at hackerrank.com
 Haskell
 ------
 
-#### Build:
-```sh
+##### Build:
+```
 $ ghc --make -o problemX Main.hs
 ```
 
 ##### Run:
-```sh
+```
 $ ./problemX
 ```
 
-#### Unit Testing:
-```sh
+##### Unit Testing:
+```
 $ ghc --make -o test SolutionTest.hs
 $ ./test
 ```
