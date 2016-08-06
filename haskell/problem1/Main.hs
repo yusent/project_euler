@@ -2,26 +2,22 @@
   If we list all the natural numbers below 10 that are multiples of 3 or 5, we
   get 3, 5, 6 and 9. The sum of these multiples is 23.
 
-  Find the sum of all the multiples of 3 or 5 below .
+  Find the sum of all the multiples of 3 or 5 below N.
 
-  Input Format
+  Input Format:
+  First line contains T that denotes the number of test cases. This is followed
+  by T lines, each containing an integer N.
 
-  First line contains that denotes the number of test cases. This is followed by
-  lines, each containing an integer, .
-
-  Output Format
-
+  Output Format:
   For each test case, print an integer that denotes the sum of all the multiples
-  of 3 or 5 below .
+  of 3 or 5 below N.
 
-  Sample Input
-
+  Sample Input:
   2
   10
   100
 
-  Sample Output
-
+  Sample Output:
   23
   2318
 -}
