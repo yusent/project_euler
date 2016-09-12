@@ -6,7 +6,7 @@ describe("findTripletProduct()", function () {
     assert.equal(findTripletProduct(12), 60);
   });
 
-  it("Should return -1 when the triplet can not be formed", function () {
+  it("Should return -1 when there's no triplet", function () {
     assert.equal(findTripletProduct(4), -1);
   });
 });
