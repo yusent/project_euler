@@ -21,3 +21,16 @@ $ ./problemX
 $ ghc --make -o test SolutionTest.hs
 $ ./test
 ```
+
+Javascript
+------
+
+##### Run:
+```
+$ node main.js
+```
+
+##### Unit Testing:
+```
+$ mocha test
+```
