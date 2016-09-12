@@ -1,13 +1,3 @@
-function processData(input) {
-  let lines = input.split("\n");
-  let t = +lines.shift();
-
-  for (let i = 0; i < t; i ++) {
-    let n = +lines.shift();
-    console.log(findTripletProduct(n));
-  }
-}
-
 function findTripletProduct(n) {
   if (n % 2 == 0) {
     for (let c = Math.floor(n / 3) + 1; c < n - 2; c ++) {
@@ -27,16 +17,5 @@ function findTripletProduct(n) {
 
   return -1;
 }
-
-process.stdin.resume();
-process.stdin.setEncoding("ascii");
-_input = "";
-process.stdin.on("data", function (input) {
-    _input += input;
-});
-
-process.stdin.on("end", function () {
-   processData(_input);
-});
 
 module.exports = findTripletProduct;
