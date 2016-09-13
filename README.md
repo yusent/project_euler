@@ -34,3 +34,16 @@ $ node main.js
 ```
 $ mocha test
 ```
+
+Ruby
+------
+
+##### Run:
+```
+$ ruby main.rb
+```
+
+##### Unit Testing:
+```
+$ ruby test.rb
+```
